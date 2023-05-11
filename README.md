@@ -4,6 +4,9 @@
 
 Create a function that takes a string input as a number and replaces leading and trailing zeros.
 
+Hint:
+re.sub("___(______)______", r"\1", given_string)  # r"\1" returns us the group
+
 ## Input/Output:
 
 ```
